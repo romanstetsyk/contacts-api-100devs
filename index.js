@@ -37,4 +37,4 @@ app.get('/api/:name', (request, response) => {
     response.json({'name': name, 'tel': 'undefined'});
 })
 
-app.listen(PORT, () => console.log(`Listening port ${PORT}...`));
+app.listen(process.env.PORT || PORT, () => console.log(`Listening port ${PORT}...`));
