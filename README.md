@@ -6,4 +6,4 @@ API built with Node.js to maintain a simple contact list.
 
 The response is in the form {"name": NAME, "tel": TEL.NUMBER}
 ## Live on Heroku
-(https://contacts-api-100devs.herokuapp.com/)[https://contacts-api-100devs.herokuapp.com/]
+[https://contacts-api-100devs.herokuapp.com/](https://contacts-api-100devs.herokuapp.com/)
